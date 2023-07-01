@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Add Employee</title>
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    </head>
+<body>
+
+<div class="container">
+
+    <h3>Add New Employee</h3>
+    <hr/>
+
+    <form action="/saveEmployee" method="POST" id="frm">
+
+        <input type="text" name="name" class="form-control col-4 mb-4" placeholder="Enter Name" id="name" />
+
+        <input type="text" name="email" class="form-control col-4 mb-4" placeholder="Enter email" id="email"/>
+
+        <input type="text" name="department" class="form-control col-4 mb-4" placeholder="Enter department" id="department"/>
+
+        <button type="submit" class="btn btn-primary col-2">Save</button>
+        <input type="hidden" name="id" />
+
+    </form>
+    <hr/>
+    <a href="list-employees.html">Back to list</a>
+</div>
+
+
+<script src="add-employees-form.js"></script>
+
+</body>
+</html>
