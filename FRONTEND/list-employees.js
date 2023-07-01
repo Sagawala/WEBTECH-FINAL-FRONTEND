@@ -1,5 +1,4 @@
-alert("fuck you")
-    // $(document).ready(function() {
+
    
 
        fetch('http://localhost:8081/employee/list')
