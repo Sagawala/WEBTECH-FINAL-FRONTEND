@@ -1,4 +1,4 @@
-alert("fuck")
+
         const urlParams = new URLSearchParams(window.location.search);
         const employeeId = urlParams.get('id');
         const form = document.getElementById('form');
