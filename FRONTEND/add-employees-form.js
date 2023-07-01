@@ -1,4 +1,4 @@
-alert("fgh")
+
     const frm=document.getElementById('frm');
     frm.addEventListener('submit',(event)=>{
         event.preventDefault();
